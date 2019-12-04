@@ -4,3 +4,11 @@
 img:hover{
     width: 100px;
 }
+p{
+    margin: 40 px;
+    border: 2px solid black;
+    padding: 40px; 
+}
+#mititulo{
+    font-size: 50px;
+}
