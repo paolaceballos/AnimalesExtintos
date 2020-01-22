@@ -48,8 +48,20 @@ p{
     height: 30%;
     border: 2px solid black;
     padding: 2%;
-    background-color: rgb(6, 245, 253);
+    background-color: #5f9496
     margin: 5%;
     position: absolute;
     top: 20px;
+}
+
+#miImagen:hover{
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.84,-0.02,0,1.53);
+    transform: skew(20deg);
+}
+
+#miImagen2:hover{
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+    transform: skew(30deg);
 }
